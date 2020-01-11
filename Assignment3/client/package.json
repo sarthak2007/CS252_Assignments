@@ -1,0 +1,33 @@
+{
+  "name": "ReactNativeStormpath",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "mongoose": "^5.7.10",
+    "react": "16.9.0",
+    "react-native": "^0.61.4",
+    "react-native-cardview": "^2.0.5",
+    "react-native-datepicker": "^1.7.2",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/runtime": "^7.7.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^5.0.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
